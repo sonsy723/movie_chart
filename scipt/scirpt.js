@@ -85,5 +85,5 @@ fetch('https://api.themoviedb.org/3/movie/top_rated?language=en-US&page=1', opti
        
 
   })
-  .catch(err => alert(err));
+  .catch(err => alert('에러가 났어요! 죄송해요~! 다시 접속해보세요!'));
   }
